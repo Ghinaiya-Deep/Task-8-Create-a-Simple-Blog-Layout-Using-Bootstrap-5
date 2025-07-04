@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deep's Blog</title>
+
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <style>
+    body {
+      background-color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+      color: #000;
+    }
+
+    .navbar {
+      background-color: #000;
+    }
+
+    .navbar-brand, .nav-link, .footer a {
+      color: #fff !important;
+    }
+
+    .navbar-toggler-icon {
+      background-color: #fff;
+    }
+
+    .card {
+      transition: 0.3s ease;
+      border: none;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .card-img-top {
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .card-title {
+      color: #000;
+    }
+
+    .btn-outline-dark {
+      border-color: #000;
+      color: #000;
+    }
+
+    .btn-outline-dark:hover {
+      background-color: #000;
+      color: #fff;
+    }
+
+    footer {
+      background-color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Deep's Blog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon rounded"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Blog Section -->
+  <div class="container py-5">
+    <h2 class="text-center mb-4 fw-bold">Latest Blog Posts</h2>
+    <div class="row g-4">
+
+      <!-- Blog Card 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="html.jpg" class="card-img-top" alt="HTML Blog" />
+          <div class="card-body">
+            <h5 class="card-title">Getting Started with HTML</h5>
+            <p class="card-text">Learn how to build the structure of web pages using clean HTML5 syntax.</p>
+            <a href="#" class="btn btn-outline-dark w-100">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Card 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="css.webp" class="card-img-top" alt="CSS Blog" />
+          <div class="card-body">
+            <h5 class="card-title">CSS Flexbox vs Grid</h5>
+            <p class="card-text">Explore how modern layouts are made using powerful CSS layout systems.</p>
+            <a href="#" class="btn btn-outline-dark w-100">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Card 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="js.jpeg" class="card-img-top" alt="JavaScript Blog" />
+          <div class="card-body">
+            <h5 class="card-title">JavaScript Essentials</h5>
+            <p class="card-text">Master core JS concepts and learn how to bring your websites to life.</p>
+            <a href="#" class="btn btn-outline-dark w-100">Read More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center text-white py-4">
+    <div class="container">
+      <p class="mb-2">Connect with us</p>
+      <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="text-white me-3"><i class="fab fa-github"></i></a>
+      <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+      <p class="mt-3 mb-0 small">&copy; 2025 Deep's Blog. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
